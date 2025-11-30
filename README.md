@@ -149,14 +149,12 @@ public class BehaviourAction_greensword : BehaviourActionBase
         }
         return list;
     }
-
-    // Token: 0x0600496D RID: 18797 RVA: 0x00005931 File Offset: 0x00003B31
+{
     public override bool IsMovable()
     {
         return false;
     }
-
-    // Token: 0x04003585 RID: 13701
+}
     private static int _motionCount;
 }
 
@@ -196,7 +194,7 @@ public class BehaviourAction_white2 : BehaviourActionBase
         }
         return list;
     }
-
+{
     public override bool IsMovable()
     {
         return false;
